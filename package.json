@@ -1,0 +1,23 @@
+{
+  "name": "las_lolitas",
+  "version": "1.0.0",
+  "description": "proyecto sitio web / aplicacion para emprendimiento las lolitas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Im_Damian",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
