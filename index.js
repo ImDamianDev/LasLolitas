@@ -8,7 +8,7 @@ const bodyParser = require('body-parser');
 const app = express();
 
 // Settings
-const HOST = process.env.HOST || 'localhost';
+//const HOST = process.env.HOST || 'localhost';
 const PORT = process.env.PORT || 3050;
 
 // Setting hbs
@@ -33,5 +33,5 @@ app.use(require("./routes/router"));
 
 // Starting the server
 app.listen(PORT, () => {
-    console.log(`\nServer is running on port ${PORT}\nhttp://${HOST}:${PORT}/\n`);
+    console.log(`\nServer is running on port ${PORT}\nhttp://localhost:${PORT}/\n`);
 });
