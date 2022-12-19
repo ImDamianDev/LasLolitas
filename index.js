@@ -33,5 +33,5 @@ app.use(require("./routes/router"));
 
 // Starting the server
 app.listen(PORT, () => {
-    console.log(`\nServer is running on port ${PORT}\nhttp://localhost:${PORT}/\n`);
+    console.log(`\n*******************************\n\nServer is running on port ${PORT}\nhttp://localhost:${PORT}/\n\n*******************************`);
 });

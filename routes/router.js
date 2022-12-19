@@ -6,4 +6,8 @@ router.get('/', function(req,res){
     res.render("Home")
 })
 
+router.get('*', function(req,res){
+    res.render('CannotGet')
+})
+
 module.exports = router;
